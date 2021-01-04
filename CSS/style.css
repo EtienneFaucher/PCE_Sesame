@@ -1,4 +1,39 @@
 html, body {
     margin: 0;
     padding: 0;
-    }
+}    
+div.navbar{
+    background-color: green;
+}
+h1{
+    color: blue;
+    text-align: center;
+    font-size : 300%;
+}
+.grid-container1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+}
+h2{
+    color: red;
+    cursor: pointer;
+    font-size : 150%;
+}
+
+a:link{
+    text-decoration: none;
+}
+.logo{
+    justify-content: left;
+}
+.boutonhaut{
+    position: fixed;
+    bottom:15px;
+    right: 50px;
+}
+.boutonhaut:hover{
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    transition: .3s ease-in-out;
+}

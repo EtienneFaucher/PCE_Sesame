@@ -2,20 +2,62 @@
 <html lang="fr">
 <head>
   <meta charset="utf-8">
-  <title>Titre de la page</title>
+  <title>Sésame</title>
   <link rel="stylesheet" href="../CSS/style.css">
   <script src="../JS/script.js"></script>
 </head>
-<body>
-  <title>SESAME</title>
-    <div id="Presentation">
-        <h1>Qui sommes nous ?</h1>
-    </div>
-    <div id="Produits">
-        <h1>Nos produits</h1>
-    </div>
-    <div id="Contact">
-        <h1>Nous contacter</h1>
-    </div>
+<body onload="function_none()">
+  <div class = "navbar">
+    <nav>
+      <div class = "grid-container1">
+        <div id="Presentation" onclick="diridentite()">
+          <h2>Qui sommes nous ?</h2>
+        </div>
+        <div id="Produits" onclick="dirproduits()">
+          <h2>Nos produits</h2>
+        </div>
+        <div id="Contact" onclick="dircontact()">
+          <h2>Nous contacter</h2>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <h1>
+      <span>Sésame - badges d'immeuble</span>
+  </h1>
+  <div class="logo">
+    <img
+      src = "../IMAGES/logo.png"
+      width="300px"
+      height="300px"
+      alt="logoentreprise"
+    >
+  </div>
+  </br></br></br>
+  <h3>
+    <p class = "identité">
+      Nous sommes de jeunes étudiants en école d'ingénieur ayant pour projet de développer
+      un badge sécurisé qui limiterait les cambriolages dûs à la copie de badge des habitants
+      d'une copropriété.
+    </p>
+    </br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+    <p class = "produit" id ="produit">
+      Nous vendons des badges fabriqué à tel endroit et de la manière suivante. </br>La technologie utilisée 
+      est la suivante.
+    </p>
+    </br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+    <p class = "contact">
+      Vous pouvez nous joindre à tel adresse email ou a tel adresse par courrier.</br>
+      Le numéro de téléphone suivant est également disponible.
+    </p>
+  </h3>
+  <div class="boutonhaut" id="boutonhaut" onclick="function_top()">
+    <img
+      src="../IMAGES/haut.png"
+      alt="retour en haut de la page"
+      width="50"
+      height="50"
+    />
+</div>
 </body>
 </html>
